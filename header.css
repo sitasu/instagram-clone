@@ -1,0 +1,74 @@
+div {
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 600px;
+  background-color: white;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-left: solid;
+  border-right: solid;
+  border-width: 1px;
+  border-color: rgb(220, 220, 220);
+}
+
+.instagram-logo {
+  height: 60px;
+  margin-left: 20px;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.heart-logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.message-logo {
+  height: 40px;
+}
+
+.header-bottom {
+  display: flex;
+  padding-bottom: 16px;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-width: 1px;
+  border-color: rgb(220, 220, 220);
+}
+
+.profile-overview {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.user-story {
+  width: 50px;
+}
+
+.profile-picture {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 5px;
+}
